@@ -1,0 +1,77 @@
+<mxfile host="Electron" modified="2023-05-21T19:05:27.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="ayldcWw2F16zUd3M47Gh" version="21.2.8" type="device">
+  <diagram name="Сторінка-1" id="kNsi37yelfmzezK_ptSe">
+    <mxGraphModel dx="1114" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-3" value="Hi! I am gonna help you to analyze your text. To start with, choose type of analysis you wanna apply:" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-1" target="ahLNzLKLlWkSxhJV42Nc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-1" value="/start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="334" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-9" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-4" target="ahLNzLKLlWkSxhJV42Nc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-4" target="ahLNzLKLlWkSxhJV42Nc-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-4" target="ahLNzLKLlWkSxhJV42Nc-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-4" value="CHOOSE_OPERATION" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="240" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-18" value="[save language]&lt;br&gt;&lt;br&gt;Now enter your text for analyzing" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-5" target="ahLNzLKLlWkSxhJV42Nc-7">
+          <mxGeometry x="-0.0037" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-5" value="CHOOSE_LANG" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="660" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-6" value="CHOOSE_MODEL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="545" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-16" value="Text was analysed for [operation] in [language] language using [model] model. Your result is :&amp;nbsp;&lt;br&gt;&lt;br&gt;[Result]" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-7" target="ahLNzLKLlWkSxhJV42Nc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-7" value="ENTER_TEXT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="740" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-8" value="DONE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="970" width="154" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-11" value="[save operation]&lt;br&gt;&lt;br&gt;What about training model?" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-10" target="ahLNzLKLlWkSxhJV42Nc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-10" value="Text Classification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="380" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-17" value="[save operation]&lt;br&gt;&lt;br&gt;What about language of the text ?" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-12" target="ahLNzLKLlWkSxhJV42Nc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-12" value="Topic Extraction&lt;br&gt;Sentiment Analysis&lt;br&gt;Corporate Reputation&lt;br&gt;Summarization&lt;br&gt;Document Structure Analysis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-13" value="Language Identification&lt;br&gt;Lemmatization, Pos and Parsing&lt;br&gt;Text Clustering" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="620" y="380" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-20" value="[save model]&lt;br&gt;&lt;br&gt;What about language of the text ?" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-6" target="ahLNzLKLlWkSxhJV42Nc-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="470" as="sourcePoint" />
+            <mxPoint x="225" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ahLNzLKLlWkSxhJV42Nc-21" value="[save operation]&lt;br&gt;&lt;br&gt;Now enter your text for analyzing" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="ahLNzLKLlWkSxhJV42Nc-13" target="ahLNzLKLlWkSxhJV42Nc-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="152" y="470" as="sourcePoint" />
+            <mxPoint x="225" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
